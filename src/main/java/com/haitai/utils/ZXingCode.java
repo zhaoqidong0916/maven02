@@ -86,9 +86,14 @@ public class ZXingCode {
     public static void main(String[] args) throws WriterException {
         File logoFile = new File("C:/Users/asus/Desktop/123/2.jpg");
         File QrCodeFile = new File("C:/Users/asus/Desktop/123/123456.jpg");
-        String url = "https://blog.csdn.net/weixin_38407595/article/details/87254224?ops_request_misc=%257B%2522request%255Fid%2522%253A%2522160552862219724838525620%2522%252C%2522scm%2522%253A%252220140713.130102334.pc%255Fall.%2522%257D&request_id=160552862219724838525620&biz_id=0&utm_medium=distribute.pc_search_result.none-task-blog-2~all~first_rank_v2~rank_v28-22-87254224.pc_first_rank_v2_rank_v28&utm_term=java%E5%AE%9E%E7%8E%B0%E4%BA%8C%E7%BB%B4%E7%A0%81%E5%A5%97%E5%8D%B0&spm=1018.2118.3001.4449";
+        //生成二维码工具类的博客
+        String url1 = "https://blog.csdn.net/weixin_38407595/article/details/87254224?ops_request_misc=%257B%2522request%255Fid%2522%253A%2522160552862219724838525620%2522%252C%2522scm%2522%253A%252220140713.130102334.pc%255Fall.%2522%257D&request_id=160552862219724838525620&biz_id=0&utm_medium=distribute.pc_search_result.none-task-blog-2~all~first_rank_v2~rank_v28-22-87254224.pc_first_rank_v2_rank_v28&utm_term=java%E5%AE%9E%E7%8E%B0%E4%BA%8C%E7%BB%B4%E7%A0%81%E5%A5%97%E5%8D%B0&spm=1018.2118.3001.4449";
+        //生成二维码工具类的博客
+        String url2 = "https://blog.csdn.net/FTL_NXY/article/details/81483343?utm_medium=distribute.pc_relevant.none-task-blog-BlogCommendFromMachineLearnPai2-2.channel_param&depth_1-utm_source=distribute.pc_relevant.none-task-blog-BlogCommendFromMachineLearnPai2-2.channel_param";
+        //生成二维码工具类的博客
+        String url3 = "https://blog.csdn.net/qq_41531600/article/details/106861858";
         String note = "加油";
-        drawLogoQRCode(null, QrCodeFile, url);
+        drawLogoQRCode(null, QrCodeFile, url1);
 
     }
 }
